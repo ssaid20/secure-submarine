@@ -1,4 +1,5 @@
 import React from "react";
+import { Button } from "../components/ui/button"
 
 // This is one of our simplest components
 // It doesn't have local state,
@@ -12,6 +13,8 @@ function AboutPage() {
         This about page is for anyone to read!
       </h1>
       <div className="panel">
+        <Button variant="outline">Button</Button>
+
         <p>This about page is for anyone to read!</p>
       </div>
     </div>
