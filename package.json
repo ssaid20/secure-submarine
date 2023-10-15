@@ -4,11 +4,16 @@
   "private": true,
   "proxy": "http://localhost:5000",
   "dependencies": {
+    "@radix-ui/react-checkbox": "^1.0.4",
+    "@radix-ui/react-slot": "^1.0.2",
     "axios": "^0.21.1",
     "bcryptjs": "^2.4.3",
+    "class-variance-authority": "^0.7.0",
+    "clsx": "^2.0.0",
     "cookie-session": "^2.0.0-rc.1",
     "dotenv": "^8.2.0",
     "express": "^4.17.1",
+    "lucide-react": "^0.287.0",
     "passport": "^0.4.1",
     "passport-local": "^1.0.0",
     "pg": "^8.5.1",
@@ -20,7 +25,9 @@
     "react-scripts": "^5.0.1",
     "redux": "^4.0.5",
     "redux-logger": "^3.0.6",
-    "redux-saga": "^1.1.3"
+    "redux-saga": "^1.1.3",
+    "tailwind-merge": "^1.14.0",
+    "tailwindcss-animate": "^1.0.7"
   },
   "scripts": {
     "start": "node server/server.js",
@@ -31,9 +38,10 @@
     "eject": "react-scripts eject"
   },
   "devDependencies": {
-    "nodemon": "^2.0.4"
+    "nodemon": "^2.0.4",
+    "tailwindcss": "^3.3.3"
   },
-   "browserslist": {
+  "browserslist": {
     "production": [
       ">0.2%",
       "not dead",
