@@ -7,11 +7,11 @@ function UserPage() {
   const user = useSelector((store) => store.user);
   return (
     <div className="container">
-      <div className="panel">
+      {/* <div className="panel">
         <h2 className="titleBase_inner">Welcome, {user.username}!</h2>
         <p>Your ID is: {user.id}</p>
         <LogOutButton className="btn" />
-      </div>
+      </div> */}
     </div>
   );
 }
